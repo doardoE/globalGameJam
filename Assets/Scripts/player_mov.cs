@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 8f;
     private float jumpingPower = 16f;
     public bool isFacingRight = true;
+    public PlayerAnimationController playerAnime;
+    
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -13,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
@@ -24,6 +27,19 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
+            if (GlobalVariable.isArmed == false) {
+                if (horizontal != 0){
+                    playerAnime.PlayAnimation("Run");
+                }
+                else if (horizontal == 0){
+                    playerAnime.PlayAnimation("idle");
+                }
+            }
+            else if (GlobalVariable.isArmed == true) {
+                
+            }
+            
+        
 
         Flip();
     }
@@ -31,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+       
     }
 
     private bool IsGrounded()
@@ -47,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
 
+            
         }
     }
 }
