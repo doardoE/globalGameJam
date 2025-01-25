@@ -16,7 +16,9 @@ public class playerShoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             GameObject bubbleProj = Instantiate(bubble.gameObject, transform.position, transform.rotation);
-            bubbleProj.GetComponent<bubbleProj>().isFacingRight = transform.localScale.x == 1 ? true : false;
+            bubbleProj currentBubble = bubbleProj.GetComponent<bubbleProj>();
+            currentBubble.isFacingRight = transform.localScale.x == 1 ? true : false;
+            currentBubble.player_mov = GetComponent<PlayerMovement>();
           
 
         }

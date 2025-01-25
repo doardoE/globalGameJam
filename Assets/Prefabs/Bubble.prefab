@@ -132,6 +132,8 @@ MonoBehaviour:
   isFacingRight: 1
   speed: 5
   count: 0
+  impulseForce: 50
+  player_mov: {fileID: 0}
 --- !u!58 &-6418893857186625538
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -8,17 +8,19 @@ public class bubbleProj : MonoBehaviour
     public float speed = 5f;
     public int count = 0;
 
-    private string PlayerTag = "Player";
+    public float impulseForce = 50f;
 
-    public GameObject gameObjectPlayer;
-    private  Rigidbody2D rb2D;
+    private string playerTag = "Player";
 
+    
+    
+    public PlayerMovement player_mov;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         StartCoroutine(ExampleCoroutine());
-        rb2D = gameObjectPlayer.GetComponent<Rigidbody2D>();
+        
     }
     IEnumerator ExampleCoroutine()
     {
@@ -50,15 +52,16 @@ public class bubbleProj : MonoBehaviour
     {
         transform.Translate((isFacingRight ? Vector3.right : Vector3.left) * speed * Time.deltaTime);
     }
-    
-     void OnCollisionEnter(Collision other)
-    {
-       if (other.gameObject.CompareTag(PlayerTag))
-       {
-        rb2D.AddForce(Vector2.up);
-       } 
-    }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.TryGetComponent(out PlayerMovement playerM))
+        {
+            playerM.rb.AddForce(-other.contacts[0].normal * impulseForce, ForceMode2D.Impulse);
+            Destroy(this.gameObject);
+        }
+    }
+   
 
 
 
