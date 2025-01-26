@@ -5727,6 +5727,18 @@ PrefabInstance:
       value: arma
       objectReference: {fileID: 0}
     - target: {fileID: 1810570054935666719, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810570054935666719, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2133286
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810570054935666719, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.3308744
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810570054935666719, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.35
       objectReference: {fileID: 0}
@@ -5765,6 +5777,10 @@ PrefabInstance:
     - target: {fileID: 1810570054935666719, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.348
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810570054935666719, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4866526640464010340, guid: 3b912443f96eb4049b7f337d432689b5, type: 3}
       propertyPath: playerMove
