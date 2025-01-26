@@ -109,6 +109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4402161774083645211}
   - component: {fileID: 2680806340812668180}
+  - component: {fileID: -879093906347479420}
   - component: {fileID: 6041225670572093096}
   - component: {fileID: 6206207427440528093}
   - component: {fileID: 3053421045406128109}
@@ -196,7 +197,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6041225670572093096
+--- !u!114 &-879093906347479420
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,6 +205,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3884500155409429719}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b0948d25e53b045945ed9e073d52cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bubble: {fileID: -6418572069970399453, guid: e5d41413131fb1349982911c68d5d5dc, type: 3}
+  cannon: {fileID: 2025050825955833141}
+  playerAnime: {fileID: 3053421045406128109}
+--- !u!114 &6041225670572093096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884500155409429719}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa40177fa856daf4e8a72854c0fc7038, type: 3}
   m_Name: 
@@ -262,7 +278,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 3
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c7e52e672cfe0964c87270cc66d95600, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

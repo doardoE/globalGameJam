@@ -14,15 +14,16 @@ public class BubblePlayerMovement : MonoBehaviour
 
     [SerializeField] private LayerMask groundLayer;
 
+    private string spikeTag = "Spike";
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-
         Flip();
     }
     void Start()
     {
-       
+     StartCoroutine(ExampleCoroutine());
     }
     
     private void FixedUpdate()
@@ -52,9 +53,39 @@ public class BubblePlayerMovement : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D() {
+
+    
+
+
+
+
+
+    IEnumerator ExampleCoroutine()
+    {
+        Debug.Log("Coroutine começou. Esperando 1 segundo...");
+        // Espera 2 segundos
+        yield return new WaitForSeconds(5.5f);
+
+        Debug.Log("2 segundos se passaram. Fazendo algo...");
+        DestroyBubbleControlSpawnPlayer();
+      
+
+        Debug.Log("Finalizando a coroutine.");
+    }
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag(spikeTag))
+        {
+             DestroyBubbleControlSpawnPlayer();
+        }
+           
+    }
+
+    private void DestroyBubbleControlSpawnPlayer()
+    {
         Destroy(this.gameObject);
-            
+
         var target = Instantiate(player, this.transform.position, this.transform.rotation);
         FindFirstObjectByType<CameraManager>().SetTarget(target.transform);
     }
