@@ -7,20 +7,20 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 16f;
     public bool isFacingRight = true;
 
-    [SerializeField] public Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
+    public Rigidbody2D rb;
+    public Transform groundCheck;
+    public LayerMask groundLayer;
 
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
         }
 
-        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
+        if (Input.GetKeyUp(KeyCode.Space) && rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
