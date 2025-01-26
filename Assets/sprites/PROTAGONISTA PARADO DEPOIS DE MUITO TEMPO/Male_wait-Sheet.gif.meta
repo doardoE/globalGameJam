@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d3404fb6b0431b489744961e092610b
+guid: 63bb7a2556c1a944a88e210c677985e2
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Male_wait-Sheet_0: 3729756341168446680
+      Male_wait-Sheet_1: -5203300949435852051
+      Male_wait-Sheet_2: 6294621082522534611
+      Male_wait-Sheet_3: 3934231062101124023
+      Male_wait-Sheet_4: -5544945325632098733
+      Male_wait-Sheet_5: 73905897936312960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

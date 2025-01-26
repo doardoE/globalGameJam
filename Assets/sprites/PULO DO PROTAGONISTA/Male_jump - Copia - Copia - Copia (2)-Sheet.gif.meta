@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19efb20b8d25c2446bbed6173c12848d
+guid: a69883f29df669b42a105b1608bb432f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -119,10 +119,10 @@ TextureImporter:
       name: Male_jump - Copia - Copia - Copia (2)-Sheet_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 91
-        width: 74
-        height: 130
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Male_jump - Copia - Copia - Copia (2)-Sheet_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 91
-        width: 74
-        height: 125
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cadd45a40460b6f46baa878678926d7a
     internalID: 0
     vertices: []
     indices: 
@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Male_jump - Copia - Copia - Copia (2)-Sheet_0: -8796767684939529696
+      Male_jump - Copia - Copia - Copia (2)-Sheet_1: -4377530090048824368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 71d79672ef074e24fafb3e7fc8b5ef41
+guid: a580bb56b8fdde148bd367ac42d73cef
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_0: -845813857761740646
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_1: -3687611906688965642
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_10: 371272445121657069
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_11: 4661685855817302249
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_12: -3838754301169649833
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_13: 6642142736806909806
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_2: 3686609097399865795
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_3: -4059773822436129517
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_4: 6337844432727356569
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_5: 4030038268990812381
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_6: 4090956731259545170
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_7: 3456742914087703155
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_8: 2545297833550060945
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_9: 5128503110834682299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

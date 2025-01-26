@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 50d15a2c068679d4ba045cd95e0ffe73
+guid: 5b1f7fd93e7bca8448b578b95e43ee2d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -119,10 +119,10 @@ TextureImporter:
       name: Male_fall - Copia - Copia (2)-Sheet_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 83
-        width: 70
-        height: 136
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Male_fall - Copia - Copia (2)-Sheet_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 83
-        width: 70
-        height: 141
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 897f8cefd4127294f855f17faea81ffe
     internalID: 0
     vertices: []
     indices: 
@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Male_fall - Copia - Copia (2)-Sheet_0: 5444514881041070868
+      Male_fall - Copia - Copia (2)-Sheet_1: 2787807102502404565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

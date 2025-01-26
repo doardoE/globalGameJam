@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1dc9c8934ea317646992e2dcdfea77a4
+guid: 05acd8788fd3fa845a0dbe4055584ccf
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Male_damage-Sheet_0: 6856920444298873791
+      Male_damage-Sheet_1: 332537347043293805
+      Male_damage-Sheet_2: 8733493317323887769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
