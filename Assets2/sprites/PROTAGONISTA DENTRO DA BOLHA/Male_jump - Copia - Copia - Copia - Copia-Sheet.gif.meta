@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 71d79672ef074e24fafb3e7fc8b5ef41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -845813857761740646
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_0
+  - first:
+      213: -3687611906688965642
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_1
+  - first:
+      213: 3686609097399865795
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_2
+  - first:
+      213: -4059773822436129517
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_3
+  - first:
+      213: 6337844432727356569
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_4
+  - first:
+      213: 4030038268990812381
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_5
+  - first:
+      213: 4090956731259545170
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_6
+  - first:
+      213: 3456742914087703155
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_7
+  - first:
+      213: 2545297833550060945
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_8
+  - first:
+      213: 5128503110834682299
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_9
+  - first:
+      213: 371272445121657069
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_10
+  - first:
+      213: 4661685855817302249
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_11
+  - first:
+      213: -3838754301169649833
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_12
+  - first:
+      213: 6642142736806909806
+    second: Male_jump - Copia - Copia - Copia - Copia-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 89
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98320617c01344f0800000000000000
+      internalID: -845813857761740646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 88
+        width: 124
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3ad483288f2dcc0800000000000000
+      internalID: -3687611906688965642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 80
+        width: 103
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c11e3c0177792330800000000000000
+      internalID: 3686609097399865795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 201
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315c345d739c8a7c0800000000000000
+      internalID: -4059773822436129517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 169
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994b666aeeb84f750800000000000000
+      internalID: 6337844432727356569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 185
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd07d6e14729de730800000000000000
+      internalID: 4030038268990812381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 145
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256e736e87ff5c830800000000000000
+      internalID: 4090956731259545170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 174
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372db02ad51d8ff20800000000000000
+      internalID: 3456742914087703155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 167
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d9250e4e6b25320800000000000000
+      internalID: 2545297833550060945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 145
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb979c6486a1c2740800000000000000
+      internalID: 5128503110834682299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 160
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8fd5e5256072500800000000000000
+      internalID: 371272445121657069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 111
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e004725692a1b040800000000000000
+      internalID: 4661685855817302249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 122
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757b7ca3d410abac0800000000000000
+      internalID: -3838754301169649833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male_jump - Copia - Copia - Copia - Copia-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 94
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6711d6a0a1ad2c50800000000000000
+      internalID: 6642142736806909806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_0: -845813857761740646
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_1: -3687611906688965642
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_10: 371272445121657069
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_11: 4661685855817302249
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_12: -3838754301169649833
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_13: 6642142736806909806
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_2: 3686609097399865795
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_3: -4059773822436129517
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_4: 6337844432727356569
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_5: 4030038268990812381
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_6: 4090956731259545170
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_7: 3456742914087703155
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_8: 2545297833550060945
+      Male_jump - Copia - Copia - Copia - Copia-Sheet_9: 5128503110834682299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
