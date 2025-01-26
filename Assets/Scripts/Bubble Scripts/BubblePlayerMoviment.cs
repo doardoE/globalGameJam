@@ -32,10 +32,8 @@ public class BubblePlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
-            Destroy(this.gameObject);
-            
-            var target = Instantiate(player, this.transform.position, this.transform.rotation);
-            FindFirstObjectByType<CameraManager>().SetTarget(target.transform);
+           DestroyBubbleControlSpawnPlayer();
+           
         }
 
     }
@@ -88,5 +86,6 @@ public class BubblePlayerMovement : MonoBehaviour
 
         var target = Instantiate(player, this.transform.position, this.transform.rotation);
         FindFirstObjectByType<CameraManager>().SetTarget(target.transform);
+        GlobalVariable.isArmed = true;
     }
 }

@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFacingRight: 1
-  player: {fileID: 3884500155409429719, guid: 5bc7fc937859ced42820c65178d9f20c, type: 3}
+  player: {fileID: 3884500155409429719, guid: 307ee085acfdf474295a53add09b86a3, type: 3}
   rb: {fileID: 3005905889604045572}
   playerAnime: {fileID: 0}
   groundLayer:

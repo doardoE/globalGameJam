@@ -23,7 +23,7 @@ public class playerArmedShoot : MonoBehaviour
 
     private void ShootBubblesAction()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && GlobalVariable.isAttacking == false)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && GlobalVariable.isAttacking == false && GlobalVariable.isArmed == true)
         {
             GameObject bubbleProj = Instantiate(bubble.gameObject, cannon.position, cannon.rotation);
             bubbleProj currentBubble = bubbleProj.GetComponent<bubbleProj>();

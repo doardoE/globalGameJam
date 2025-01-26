@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     void Start() {
-        GlobalVariable.isArmed = false;
         GlobalVariable.isAttacking = false;
         GlobalVariable.isPicking = false;
     }

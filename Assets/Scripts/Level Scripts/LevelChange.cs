@@ -11,6 +11,7 @@ public class LevelChange : MonoBehaviour
         if (other.gameObject.CompareTag(playerTag))
         {
             SceneManager.LoadScene(loadNextScene);
+            
         }
   }
 }
