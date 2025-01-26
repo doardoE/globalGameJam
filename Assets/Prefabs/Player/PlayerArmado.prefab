@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 8479570693156863554}
   - component: {fileID: 3500890493578059162}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerArmado
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -136483756, guid: 753fdd02edadd0942b6dca0ceb50e7a2, type: 3}
+  m_Sprite: {fileID: 479587970, guid: 505f15bd431d52240a3aa3bd1f54dbfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

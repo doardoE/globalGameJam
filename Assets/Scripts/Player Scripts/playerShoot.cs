@@ -44,7 +44,7 @@ public class playerShoot : MonoBehaviour
         GameObject bubbleProj = Instantiate(bubble.gameObject, transform.position, transform.rotation);
         bubbleProj.GetComponent<bubbleProj>().isFacingRight = transform.localScale.x == 1 ? true : false;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
 
         GlobalVariable.isAttacking = false;
     }

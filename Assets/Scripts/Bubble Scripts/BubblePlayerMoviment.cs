@@ -10,6 +10,7 @@ public class BubblePlayerMovement : MonoBehaviour
     public GameObject player;
 
     public Rigidbody2D rb;
+    public PlayerAnimationController playerAnime;
 
     [SerializeField] private LayerMask groundLayer;
 
@@ -31,6 +32,7 @@ public class BubblePlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             Destroy(this.gameObject);
+            
             var target = Instantiate(player, this.transform.position, this.transform.rotation);
             FindFirstObjectByType<CameraManager>().SetTarget(target.transform);
         }
@@ -48,5 +50,12 @@ public class BubblePlayerMovement : MonoBehaviour
             transform.localScale = localScale;
 
         }
+    }
+
+    void OnCollisionEnter2D() {
+        Destroy(this.gameObject);
+            
+        var target = Instantiate(player, this.transform.position, this.transform.rotation);
+        FindFirstObjectByType<CameraManager>().SetTarget(target.transform);
     }
 }
