@@ -11,21 +11,25 @@ public class NPCInteraction : MonoBehaviour
     public void Interact() {
         GlobalVariable.isArmed = true;
         playerAnime.PlayAnimation("PegandoArma");
+        playerMove.speed = 0f;
+        playerMove.jumpingPower = 0f;
         StartCoroutine(CoroutineItem());
         
-        playerMove.speed = 8f;
-        playerMove.jumpingPower = 16f;
+
       
     }
 
     IEnumerator CoroutineItem()
     {
         GlobalVariable.isPicking = true;
-        playerMove.speed = 0f;
-        playerMove.jumpingPower = 0f;
+
 
         yield return new WaitForSeconds(0.9f);
-          GlobalVariable.isPicking = false;
-          Destroy(this.gameObject);
+
+        GlobalVariable.isPicking = false;
+        Destroy(this.gameObject);
+        playerMove.speed = 8f;
+        playerMove.jumpingPower = 16f;
+
     }
 }
