@@ -1,26 +1,44 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    public float speed = 8f;
+    public float jumpingPower = 16f;
     public bool isFacingRight = true;
     public PlayerAnimationController playerAnime;
+    public float vertical;
     
 
-    [SerializeField] public Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+
+    void Start() {
+        GlobalVariable.isArmed = false;
+        GlobalVariable.isAttacking = false;
+        GlobalVariable.isPicking = false;
+    }
 
     void Update()
     {
         
         horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = rb.linearVelocity.y;
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+        }
+
+        if (vertical > 0 && GlobalVariable.isAttacking == false) {
+            playerAnime.PlayAnimation("playerPuloSubida");
+        }
+
+        else if (vertical < 0 && GlobalVariable.isAttacking == false) {
+            playerAnime.PlayAnimation("playerPuloQueda");
         }
 
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
@@ -28,18 +46,21 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         }
             if (GlobalVariable.isArmed == false) {
-                if (horizontal != 0){
+                if (horizontal != 0 && vertical == 0 && GlobalVariable.isPicking == false){
                     playerAnime.PlayAnimation("Run");
                 }
-                else if (horizontal == 0){
+                else if (horizontal == 0 && vertical == 0 && GlobalVariable.isPicking == false){
                     playerAnime.PlayAnimation("idle");
                 }
             }
-            else if (GlobalVariable.isArmed == true) {
-                
+            else if (GlobalVariable.isArmed == true && GlobalVariable.isAttacking == false) {
+                if (horizontal != 0 && vertical == 0 && GlobalVariable.isPicking == false) {
+                    playerAnime.PlayAnimation("Run");
+                }
+                else if (horizontal == 0 && GlobalVariable.isAttacking == false && vertical == 0 && GlobalVariable.isPicking == false) {
+                    playerAnime.PlayAnimation("idleArmado");
+                }  
             }
-            
-        
 
         Flip();
     }
@@ -63,8 +84,6 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
-
-            
         }
     }
 }
