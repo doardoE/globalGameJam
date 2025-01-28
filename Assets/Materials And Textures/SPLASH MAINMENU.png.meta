@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPLASH MAINMENU_0: 2950852374087477883
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
